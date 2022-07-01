@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.DTD">
+
+<!-- définit le document comme un document HTML -->
+<html xmlns="http://www.w3.org/1999/xhtlm">
+
+<!-- section d'entête dans le document -->
+  <head>
+    <!--
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="style.css">
+      <meta charset="UTF-8">
+    -->
+
+    <!-- definit le titre de document qui apparait dans la barre de titre du navigateur -->
+        <title>StarWars by Cédric</title>
+
+    <!-- OneTrust Cookies Consent Notice start for aristideriou.github.io -->
+        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="67642142-3a82-409d-b2e5-7149546b49fb" >
+        </script>
+        <script type="text/javascript">
+            function OptanonWrapper() { }
+        </script>
+    <!-- OneTrust Cookies Consent Notice end for aristideriou.github.io -->
+
+    <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+
+
+    <!-- Permet de rediriger vers un site w3.org au bout de 5 secondes -->
+      <!--<meta http-equiv="refresh" content="5; url=http://www.w3.org" />  -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--meta http-equiv="content-type" content="text/html;charset=iso859-1" /-->
+
+    <meta name="keywords" content="Site Web, StarWars, Univers" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de l'Univers StarWars" />
+  </head>
+
+  <!-- contient tout le texte qui apparait dans la fenêtre du navigateur -->
+  <!--body style="color: yellow;
+               background-color: black;
+               font-size: 12pt;
+               font-family: cursive; Geogia;" -->
+
+  <body>
+  <p>
+
+  </p>
+  <!-- définit le texte comme un 1er niveau de titre -->
+  <h1>Star Wars</h1>
+    <button id="push">Changer virtuellement l'URL</button>
+
+    <!-- identifient les paragraphes du document -->
+    <h2>Univers</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Iq6g_4AwUWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <p>L'histoire de Star Wars, se déroule dans une galaxie qui est le théâtre d'affrontements entre les Chevaliers Jedi et les Seigneurs noirs des Sith, personnes sensibles à la Force, un champ énergétique mystérieux leur procurant des pouvoirs psychiques. Les Jedi maîtrisent le Côté lumineux de la Force, pouvoir bénéfique et défensif, pour maintenir la paix dans la galaxie. Les Sith utilisent le Côté obscur, pouvoir nuisible et destructeur, pour leurs usages personnels et pour dominer la galaxie.</p>
+
+        <h3>Histoires</h3>
+        <p>Depuis le rachat de la société Lucasfilm par The Walt Disney Company, il existe deux univers Star Wars : le « Légendes » et l'« officiel ». Ils ont pour point commun les six premiers films et la série télévisée Star Wars: The Clone Wars.</p>
+          <p>L'univers Légendes reprend en plus les histoires complémentaires présentées dans des livres, des bandes dessinées, des téléfilms ou des jeux sortis avant 2014.</p>
+          <p>L'univers officiel reprend, quant à lui, les histoires des films et des autres supports parus depuis 2014</p>
+
+          <button id="purchase">Cliquer ici pour acheter votre goodies</button>
+
+        <h3>Films & SpinOffs</h3>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/TWTfhyvzTx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <p>Obi-Wan Kenobi, plus tard connu sous le nom de Ben Kenobi, était un humain sensible à la Force qui fut chevalier Jedi du temps de la République Galactique. Il forma le Jedi Anakin Skywalker jusqu'à ce que celui-ci bascule du Côté Obscur et ne mette fin à l'Ordre Jedi. Du temps de l'Empire Galactique, il s'exila sur Tatooine pour veiller sur le fils de Skywalker avant de devenir son mentor peu avant la bataille de Yavin. Kenobi initia Luke à la Force mais ne put poursuivre sa formation car peu de temps après il se fit tuer par Dark Vador à bord de l'Étoile de la Mort. Après sa mort, Obi-Wan demeura vivant à travers la Force et apparut à Luke sous forme de spectre pour le guider dans sa quête.</p>
+
+          <button id="custom"> Cliquer ici pour vous abonner à notre newsletter </button>
+
+        <!--
+          <a href="https://twitter.com/FCNantes" target="_blank" id="fcna" class="top left link">Visitez le compte Twitter du FCN</a>
+        -->
+
+    <p>La dernière modification de cette page a été faite le 06 mai 2022 à 10:00.</p>
+        <a href="blabla.pdf" target="_blank">Cliquez ici pour télécharger le fichier PDF </a>
+
+  </body>
+</htlm>
+
+<!--
+<script>
+    const newsletterButton = document.getElementById('custom');
+    newsletterButton.addEventListener('click',()=> {
+        dataLayer.push({
+            'event' : 'newsletter_subscription',
+            'newsletter_subscription' : {
+                'clientType' : 'Prospect',
+                'source' : 'Pop In',
+                'frequency' : 'Monthly'
+            }
+        })
+    });
+
+</script>
+
+
+<script>
+    const pushButton = document.getElementById('push');
+    pushButton.addEventListener('click',()=> {
+        const state = { 'page_id': 1, 'user_id': 5 };
+        const url = 'hello-world.html';
+
+        history.pushState(state, '', url);
+    });
+</script>
+
+
+<script>
+    const purchase = document.getElementById('purchase');
+    purchase.addEventListener('click',()=> {
+        dataLayer.push({
+            'event' : 'purchase',
+            'purchase' : {
+                transaction_id: "T_12345",
+                htValue: 25.42,
+                tax: 4.90,
+                shipping: 5.99,
+                currency: "EUR",
+                productID: "321654XXXX",
+                productName: "Maillot FC Nantes",
+                coupon: "DISCOUNT4000",
+                discount: 3.33,
+                brand: "FC Nantes",
+                category: "Maillot",
+                variant: "XL",
+            }
+        });
+    })
+</script>
+-->
